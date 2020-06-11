@@ -1,0 +1,163 @@
+body {
+    background-color: #CCCCCC;
+    max-width: 425px;
+    margin: 0;
+    width: auto;
+}
+
+
+header {
+    max-width: 425px;
+    width: auto;
+    height: 381px;  
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/BG%20HEADER.png), #C4C4C4;
+    
+}
+#h-menu {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a { 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+    
+#H-left {
+    display: inline-block;
+    margin: 24px auto 0 24px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#nav li{
+	float:right;
+	margin-right:10px;
+	position:relative;
+	display:block;
+}
+#nav li a{
+	display:block;
+	padding:5px;
+	color:#fff;
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+#nav li a:hover{
+	color:#fff;
+	background:black;
+	background:black; 
+}
+
+
+#nav ul{
+	list-style:none;
+	position:absolute;
+    display: none;
+	/* left:-9999px; Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+	opacity:0; 
+}
+#nav ul li{
+	padding-top:2px; 
+	float:none;
+    width: auto;
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));;
+}
+
+#nav li:hover ul{ 
+    display: inline-table;
+    position: absolute;
+    margin-right: 50px;
+    left: auto;
+	opacity:1;
+}
+
+.main {
+    max-width: 425px;
+    width: auto;
+    height: 2313px;
+    margin: -62px 10px auto 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+#avatar {
+    margin: -79px auto 0 auto;
+    border-radius: 50%;
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.3), 0px 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.main H3 {
+    margin-top: 21px auto 0px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25.55px;
+    line-height: 0px;
+    color: #3C4858;
+}
+.main h4 {
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #999999;
+}
+.main p {
+    margin-top: 0px;
+    margin-bottom: 110px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #999999;
+}
+.buttons {
+    margin: 22px auto 21px auto;
+}
+#pic {
+    max-width: 378px;
+    margin: 30px 0px 0px 12px;
+    padding: 0px;
+    color: transparent 40%;
+}
+
+footer {
+    max-width: 425px;
+    margin: 30px auto 34px auto;
+    color: #333333;
+    text-decoration: none;
+}
+
+footer a  {
+    
+    color: #333333;
+    text-decoration: none;
+}
+
+#footer-left {
+    margin: 45px auto 0px 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#footer-left a {
+    margin-right: 34px;
+
+}
+
+#signature {
+    text-align: center;
+    margin: 30px auto 27px auto;
+    font-family: FontAwesome;
+    font-size: 10px;
+    line-height: 11px;
+}
